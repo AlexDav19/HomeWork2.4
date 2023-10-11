@@ -1,7 +1,8 @@
-package pro.sky.calculator;
+package pro.sky.calculator.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import pro.sky.calculator.services.HelloService;
 
 @RestController
 public class HelloController {
